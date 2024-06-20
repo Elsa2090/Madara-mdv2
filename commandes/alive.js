@@ -39,11 +39,11 @@ const date = moment().format('DD/MM/YYYY');
 *Mode* : ${mode}
 *Date* : ${date}
 *Time* : ${temps}
-
+*Dev*  : BRYANT TECH
  ${message}
  
  
- *𝑴𝑬𝑮𝑨𝑻𝑹𝑶𝑵-𝑩𝑶𝑻 𝒃𝒚 𝑫𝒂𝒎𝒐𝒏 𝒊𝒔 𝒂𝒍𝒊𝒗𝒆*`
+ *𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚 𝕀𝕊 𝔸𝕃𝕀𝕍𝔼*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
