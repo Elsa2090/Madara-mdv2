@@ -8,10 +8,9 @@
 
 ✦𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨✦
    - ***Click [`FORK`](.https://github.com/Elsa2090/Madara-mdv2/fork) and `Star ⭐ Repository` for Courage.***
-     -***`𝙂𝙀𝙏 𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙄𝘿` 𝘽𝙔 [`𝙋𝘼𝙄𝙍𝙄𝙉𝙂 𝘾𝙊𝘿𝙀`](.https://sessionid1-e846e707a329.herokuapp.com/)
-   - ***`𝗚𝗘𝗧 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗕` 𝗕𝗬  [`𝙌𝙍 𝘾𝙊𝘿𝙀`](https://sessionid1-e846e707a329.herokuapp.com/) Then `
+     -***`𝙂𝙀𝙏 𝙎𝙀𝙎𝙎𝙄𝙊𝙉 𝙄𝘿` 𝘽𝙔 [`𝙋𝘼𝙄𝙍𝙄𝙉𝙂 𝘾𝙊𝘿𝙀`](https://bryant-tech-bot-6caf875ac89b.herokuapp.com)
+   - ***`𝗚𝗘𝗧 𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗕` 𝗕𝗬  [`𝙌𝙍 𝘾𝙊𝘿𝙀`](https://bryant-tech-bot-6caf875ac89b.herokuapp.com) Then `
 
-    𝙰𝙵𝚃𝙴𝚁 𝙻𝙸𝙽𝙺𝙸𝙽𝙶 𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙶𝙴𝚃 𝙰 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳 𝙲𝙾𝙿𝚈 𝚃𝙷𝙴 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳 𝙰𝙽𝙳 𝚈𝙾𝚄 𝙸𝚃 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝙱𝙾𝚃 𝙾𝙽 𝙷𝙴𝚁𝙾𝙺𝚄
     
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
    - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/https://github.com/Elsa2090/Madara-mdv2).***
