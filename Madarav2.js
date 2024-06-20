@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/FLASH-MD-WA-BOT;;;=>/g,"");
+var session = conf.session.replace(/enyyy,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -132,11 +132,11 @@ setTimeout(() => {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const FranceKing='254757835036';
-             const FranceKing1='254751284190';
-             const FranceKing2='254750948696'*/
-            /*  var superUser=[servBot,FranceKing,FranceKing1,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
-              var dev =[FranceKing,FranceKing1,FranceKing2].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
+            /* const Bryanttech='233530729233';
+             const Bryanttech1='233530729233';
+             const Bryanttech2='233530729233'*/
+            /*  var superUser=[servBot,Bryanttech,Bryanttech2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
+              var dev =[Bryanttech,Bryanttech1,Bryanttech2].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
             var infosGroupe = verifGroupe ? await zk.groupMetadata(origineMessage) : "";
             var nomGroupe = verifGroupe ? infosGroupe.subject : "";
@@ -154,18 +154,18 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const Damon = '254790593618';
-            const Damon1 = '254780273886';
-            const Damon2 = "254102350531";
-            const Damon3 = '258874856293';
+            const Bryanttech = '233530729233';
+            const Bryanttech1 = '94784192378';
+            const Bryanttech2 = "233530729233";
+            const Bryanttech3 = '233538230444';
             const sudo = await getAllSudoNumbers();
-            const superUserNumbers = [servBot, Damon, Damon1, Damon2, Damon3, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
+            const superUserNumbers = [servBot, Bryanttech, Bryanttech1, Bryanttech2, Bryanttech3, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
-            var dev = [Damon, Damon1,Damon2,Damon3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+            var dev = [Bryanttech, Bryanttech1,Bryanttech2,Bryanttech3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{MEGATRON-BOT}...[][]");
+            console.log("\t [][]...{𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗-𝗩𝟮}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from the group : " + nomGroupe);
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Flash-Md',
+                                        pack: '𝗠𝗮𝗱𝗮𝗿𝗮_𝗺𝗱-𝘃𝟮',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: '༒𝐃𝚫𝚳𝚯𝚴𖤍༒',
+                pack: '༒𝔹ℝ𝕐𝔸ℕ𝕋𖤍𝕋𝔼ℂℍ༒',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -635,7 +635,7 @@ function mybotpic() {
                 if(!superUser) {
                     let req = await isUserBanned(auteurMessage);
                     
-                        if (req) {repondre("You are banned from bot commands"); return}
+                        if (req) {repondre("𝗬𝗼𝘂 𝗰𝗮𝗻𝘁 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗮𝗻𝘆𝗺𝗼𝗿𝗲,𝗯𝗲𝗴 𝘁𝗵𝗲 𝗼𝘄𝗻𝗲𝗿 𝗳𝗼𝗿 𝗳𝗼𝗿𝗴𝗶𝘃𝗲𝗻𝗲𝘀𝘀"); return}
                     
 
                 } 
@@ -663,14 +663,14 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/6965abd5ea26b6cc84a52.jpg';
+        ppgroup = 'https://telegra.ph/file/393ae90c2dceb3369f5b0.jpg';
     }
 
     try {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `◇MEGATRON-BOT◇
+            let msg = `✦𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗-𝗩𝟮✦
 `;
              
             let membres = group.participants;
@@ -678,21 +678,21 @@ zk.ev.on('group-participants.update', async (group) => {
                 msg += `Hello @${membre.split("@")[0]}\n`;
             }
 
-            msg += `*You are welcomed here.* 
+            msg += `*ℍ𝔼𝕃𝕃𝕆 𝕐𝕆𝕌ℝ𝔼 𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋ℍ𝔼 𝕄𝕆𝕊𝕋 𝕀𝕄ℙ𝕆ℝ𝕋𝔸ℕ𝕋 𝔾ℝ𝕆𝕌ℙ. 𝕀𝕋 𝕀𝕊 ℙℝ𝕆ℍ𝕀𝔹𝕀𝕋𝔼𝔻 ℍ𝔼ℝ𝔼 𝕋𝕆 𝕃𝔼𝔸𝕍𝔼 𝕋ℍ𝔼 𝔾ℝ𝕆𝕌ℙ.* 
             
 *You MAY read the group description FOR more info and Avoid getting removed*
             
      
             
- ◇ *GROUP DESCRIPTION*  ◇
+ ◇ *𝗚𝗥𝗢𝗨𝗣 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡*  ◇
 
 ${metadata.desc}
 
-📌Powered by *༒𝐃𝚫𝚳𝚯𝚴𖤍༒*`;
+ ✦Powered by *༒𝔹ℝ𝕐𝔸ℕ𝕋𖤍𝕋𝔼ℂℍ༒*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `Goodbye to that Fallen soldier, Powered by *MEGATRON-BOT*;\n`;
+            let msg = `Goodbye to that Fallen soldier, Powered by *𝗠𝗔𝗗𝗔𝗥𝗔-𝗕𝗢𝗧*;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -858,10 +858,10 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐁𝐎𝐓 is CONNECTED』*
+*『𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗-𝗩𝟮 is CONNECTED』*
 
      
-║❒Creator: *༒𝐃𝚫𝚳𝚯𝚴𖤍༒*
+║❒Creator: *༒𝔹ℝ𝕐𝔸ℕ𝕋𖤍𝕋𝔼ℂℍ༒*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
 ║❒Created on : *25.3.2024*
@@ -872,13 +872,13 @@ ${metadata.desc}
  
 
 
-║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/HSChig1YPPQIDEtpvzMBuo
+║❒ *𝕁𝕆𝕀ℕ 𝕆𝕌ℝ 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ ℂℍ𝔸ℕℕ𝔼𝕃*
 
+https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L
  
 
 
-              *𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍-𝐁𝐎𝐓*`;
+              *𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
