@@ -15,16 +15,7 @@
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
    - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/https://github.com/Elsa2090/Madara-mdv2).***
 
-
-## Contributions.  
-
-Contributions to Madara_md-v2 are welcome! if you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-The Madara-Bot is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-Enjoy the diverse features of the Madara-Bot to enhance your conversations and make your WhatsApp experience more interesting!
+     <img src="https://telegra.ph/file/0f931eb7db056315197bd.jpg" width="650" height="500"/>
 ## 𝐅𝐎𝐋𝐋𝐎𝐖 𝐓𝐇𝐄 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑👇
 
 <br/> <div align="center">
