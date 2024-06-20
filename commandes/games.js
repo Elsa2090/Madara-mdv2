@@ -209,6 +209,40 @@ Send the number off right answers`
 
         } catch (error) {
             console.log(error);
+            let handler = async (m, { conn }) => {
+  let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  let name = conn.getName(who)
+  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './XLICON.jpg')
+  conn.sendFile(m.chat, global.API('https://some-random-api.com', '/canvas/overlay/gay', {
+    avatar: pp, 
+  }), 'gay.png', `🏳️‍🌈  *Gay :* ${name}\n\nWho wants to rape this gay☠️? `, m)
+}
+
+handler.help = ['gay @user']
+handler.tags = ['fun']
+handler.command = ['gay'] 
+
+export default handler
+            import fetch from 'node-fetch'
+let handler  = async (m, { conn }) => {
+    let shizokeys = 'shizo'	
+  let res = await fetch(`https://shizoapi.onrender.com/api/texts/flirt?apikey=${shizokeys}`)
+  if (!res.ok) throw await res.text()
+	    let json = await res.json()
+
+  let guru = `${json.result}`
+  conn.sendMessage(m.chat, { text: guru, mentions: [m.sender] }, { quoted: m })
+}
+handler.help = ['flirt']
+handler.tags = ['fun']
+handler.command = /^(flirt)$/i
+
+export default handler
+
+
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())]
+}
         }
     }
 );
