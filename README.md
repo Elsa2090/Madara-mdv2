@@ -54,4 +54,19 @@ Enjoy the diverse features of the *MADARA-MD*  to enhance your Whatsapp more enj
 
 - [**Instagram**](https://instagram.com/Bryant_tech.1)
 - [**WhatsApp**](https://wa.me/233530729233)
+- 
+### TO JOIN OUR WHATSAPP CHANNEL 
 
+*𝗧𝗔𝗣 𝗛𝗘𝗥𝗘 𝗧𝗢 𝗝𝗢𝗜𝗡(◔‿◔)* <p align="centre">
+  <a href="https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L">
+   <img align="centre" alt="SIEGRIN | Whastapp" width="86px" src="https://raw.githubusercontent.com/PikaBotz/My_Personal_Space/main/Images/AnyaBot_pics/Anya_v2/Whatsapp.svg" />
+
+   
+ <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+***
+### THANKS TO:
+- [***Bryant tech***](https://github.com/Elsa2090) For several Cmds & Ideas.
+- [***Bryanttech***](https://github.com/Bryant2090) For Genaral Help and Brotherhood. 
+- [***France king***](https://github.com/franceking1) For Code encryption. 
+- [***BryantXtech***](https://github.com/BryantXtech) For Providing a Base of **ITACHI
