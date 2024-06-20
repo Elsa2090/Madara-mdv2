@@ -4,10 +4,10 @@ const { default: axios } = require('axios');
 //const conf = require('../set');
 
 
-zokou({ nomCom: 'test',
+zokou({ nomCom: 'ping',
     desc: 'To check ping',
     Categorie: 'General',
-    reaction: '🚀', 
+    reaction: '📍', 
     fromMe: 'true', 
 
        
@@ -15,7 +15,7 @@ zokou({ nomCom: 'test',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
     const { start} = new Date().getTime()
-    return repondre('*𝑴𝑬𝑮𝑨𝑻𝑹𝑶𝑵-𝑩𝑶𝑻 𝒊𝒔 𝑨𝑳𝑰𝑽𝑬*\n ```' + Responding at 2000 + '``` *ms*') 
+    return repondre('*𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗-𝗩𝟮 𝒊𝒔 𝑨𝑳𝑰𝑽𝑬*\n ```' + Responding at 2000 + '``` *ms*') 
     const { end } = new Date().getTime()
     await zok.sendMessage('*Pong!*\n ```' + (end - start) + '``` *ms*')
   }
