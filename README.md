@@ -58,6 +58,6 @@ Enjoy the diverse features of the *MADARA-MD*  to enhance your Whatsapp more enj
 ***
 ### THANKS TO:
 - [***Bryant tech***](https://github.com/Elsa2090) For several Cmds & Ideas.
-- [***Bryanttech***](https://github.com/Bryant2090) For Genaral Help and Brotherhood. 
+- [***Bryan tech***](https://github.com/Loverboy1) For Genaral Help and Brotherhood. 
 - [***France king***](https://github.com/franceking1) For Code encryption. 
 - [***BryantXtech***](https://github.com/BryantXtech) For Providing a Base of **ITACHI
