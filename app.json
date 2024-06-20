@@ -1,9 +1,9 @@
 {
-  "name":"MEGATRON-BOT",
-  "description":"An easy and simple WhatsApp bot With over 150 features developed by Damon.",
+  "name":"MADARA_MD-V2",
+  "description":"An easy and simple WhatsApp bot With over 200 features developed by Bryant tech.",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/6965abd5ea26b6cc84a52.jpg",
-  "repository":"https://github.com/Madmkisii/Megatron-Bot",
+  "logo":"https://telegra.ph/file/127e9cabd8d68eea4f069.jpg",
+  "repository":"https://github.com/Elsa2090/Madara-mdv2",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -21,7 +21,7 @@
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
     ,
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"MEGATRON-BOT",
+      "value":"MADARA_MD-V2",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
-      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/6c25ba8205452781b7734.jpg",
+      "description":"add one or many link for your bot menu  ; but dont touch it",
+      "value":"https://telegra.ph/file/9eb9f080a37583e449a9a.mp4",
       "required":false
        
      },
@@ -54,8 +54,8 @@
     }
 	,
     "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+    "description": "insert your heroku api-key",
+     "required" :true
     },
    "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (this is optionnal)",
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Damon"
+    "value": "𝔹ℝ𝕐𝔸ℕ𝕋"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254790593618"
+    "value": "233530729233"
   },
     "WARN_COUNT":
   {
