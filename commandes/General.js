@@ -68,16 +68,16 @@ france({ nomCom: "owner", categorie: "General", reaction: "💞" }, async (dest,
   }
 });
 
-france({ nomCom: "developer", categorie: "General", reaction: "🐐" }, async (dest, zk, commandeOptions) => {
+france({ nomCom: "developer", categorie: "General", reaction: "😌" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "France King", numero: "254757835036" },
-      { nom: "᚛FranceKing᚜", numero: "254750948696" },
+      { nom: "Bryant tech", numero: "233530729233" },
+      { nom: "᚛Bryanttech᚜", numero: "94784192378" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "Hello 👋\n *Welcome to Flash-Md!*\n\n*✦━━◆CREATOR INFO◆━━✦*\n\n\n *◇NAME: _France King_*\n*◇AGE: 23*\n*◇LOCATION: _On Earth_*\n*◇BELIEVER: YES ✅*\n*◇FRIENDLY: YES ✅*\n*◇EGOISTIC: _YEEES ✅_*\n*◇FAV TEAM: _CHELSEA_*\n*◇INSTAGRAM: https://instagram.com/france.king1*\n*◇Twitter: https://twitter.com/france_king1*\n\n______________________________\n\n*💙KEEP USING FLASH-MD🤍*\n\n\n_The following are my contacts_:\n:";
+    let message = "Hello 👋\n *𝐇𝐄𝐋𝐋𝐎 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐌𝐀𝐃𝐀𝐑𝐀_𝐌𝐃-𝐕𝟐*\n\n*✇❊╌──┈⊰᯽⊱𝘾𝙍𝙀𝘼𝙏𝙊𝙍 𝙄𝙉𝙁𝙊⊰᯽⊱┈──╌❊✇*\n\n\n *❦𝙉𝘼𝙈𝙀: _𝔹𝕣𝕪𝕒𝕟𝕥 𝕋𝕖𝕔𝕙_*\n*❦𝗔𝗚𝗘: 𝟙𝟝*\n*❦𝗟𝗢𝗖𝗔𝗧𝗜𝗢𝗡: _𝕆ℕ 𝔼𝔸ℝ𝕋ℍ_*\n*❦𝗕𝗘𝗟𝗜𝗘𝗩𝗘𝗥: 𝕐𝔼𝕊𝕊𝕊 ✅*\n*❦𝙁𝙍𝙄𝙀𝙉𝘿𝙇𝙔:𝕐𝔼𝕊𝕊𝕊✅*\n*❦𝗚𝗘𝗡𝗗𝗘𝗥: _𝕄𝔸𝕃𝔼_*\n*❦𝗙𝗔𝗩.𝗔𝗡𝗜𝗠𝗘: _ℕ𝔸ℝ𝕌𝕋𝕆_*\n*❦𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠: https://instagram.com/Bryant_tech.1*\n*❦𝗕𝗢𝗧 𝗥𝗘𝗣𝗢:https://github.com/Elsa2090/Madara-mdv2*\n\n*◀︎_______________❚❚___________▶︎\n\n*♦︎𝗞𝗘𝗘𝗣 𝗨𝗦𝗜𝗡𝗚 𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗-𝗩𝟮♦︎*\n\n_𝗧𝗛𝗘 𝗙𝗢𝗟𝗟𝗢𝗪𝗜𝗡𝗚 𝗜𝗦 𝗧𝗛𝗘 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥:\n:"233530729233";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -113,7 +113,7 @@ france({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpt
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/254757835036`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/233530729233`},{quoted :ms})
 
 })
  
