@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Megatron-Bot",
+    "Madara-Bot",
     "whatsapp",
     "whatsapp-bot",
-    "damon"
+    "Bryant"
   ],
-  "author": "Damon",
+  "author": "Bryant tech",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
