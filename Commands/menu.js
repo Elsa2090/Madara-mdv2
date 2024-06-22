@@ -43,7 +43,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────𖤍 𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗-𝗩𝟮 𖤍────◆
+╭────𖤍 𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐁𝐎𝐓 𖤍────◆
 │𖤍 *Préfix* : ${s.PREFIXE}
 │𖤍 *User* : ${s.OWNER_NAME}
 │𖤍 *Mode* : ${mode}
@@ -53,19 +53,19 @@ const date = moment().format('DD/MM/YYYY');
 │𖤍 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │𖤍 *Platform* : Linux 
 │𖤍 *Uptime*: ${runtime(process.uptime())}
-╰─────♞︎ 𝙱𝚁𝚈𝙰𝙽𝚃 𝚃𝙴𝙲𝙷꧂ \n\n`;
+╰─────✞🩸𝐊𝚰𝚳𝚳𝐘𓃵𖤍🔥³¹⁶─────◆ \n\n`;
 
   let menuMsg=`  
 
-* 𝗕𝗢𝗧  𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 :*
+* 𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒 :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────♞︎* *${cat}* *✞⊷*`;
+        menuMsg += `*╭────✞* *${cat}* *✞⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-*𓃮* ${cmd}`;
+*𓃵* ${cmd}`;
         }
         menuMsg += `
 *╰═════════════⊷* \n`
@@ -75,7 +75,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *𖤍 ༒𝔹ℝ𝕐𝔸ℕ𝕋𖤍༒³¹⁶*                                         
+  *𖤍 ༒𝐃𝚫𝚳𝚯𝚴𖤍༒³¹⁶*                                         
 *╰═════════════⊷*
 `;
 
@@ -93,7 +93,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*༒𝔹ℝ𝕐𝔸ℕ𝕋𖤍༒*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*༒𝐃𝚫𝚳𝚯𝚴𖤍༒*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
