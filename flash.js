@@ -154,18 +154,18 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const Damon = '254790593618';
-            const Damon1 = '254780273886';
-            const Damon2 = "254102350531";
-            const Damon3 = '258874856293';
+            const Damon = '233538230444';
+            const Damon1 = '233530729233';
+            const Damon2 = "94784192378";
+            const Damon3 = '233530729233';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, Damon, Damon1, Damon2, Damon3, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
             const superUser = allAllowedNumbers.includes(auteurMessage);
             
-            var dev = [Damon, Damon1,Damon2,Damon3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
+            var dev = [Bryant, Bryant1,Bryant2,Bryant3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{MEGATRON-BOT}...[][]");
+            console.log("\t [][]...{𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from the group : " + nomGroupe);
@@ -858,27 +858,27 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐁𝐎𝐓 is CONNECTED』*
+*『𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚 is CONNECTED』*
 
      
-║❒Creator: *༒𝐃𝚫𝚳𝚯𝚴𖤍༒*
-║❒Prefix : [ ${prefixe} ]
-║❒Mode :${md}
-║❒Created on : *25.3.2024*
-║❒Total Commands : ${evt.cm.length}︎
+║♤Creator: *༒𝔹ℝ𝕐𝔸ℕ𝕋༒*
+║♤Prefix : [ ${prefixe} ]
+║♤Mode :${md}
+║♤Created on : *25.3.2024*
+║♤Total Commands : ${evt.cm.length}︎
 
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
      ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
  
 
 
-║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/HSChig1YPPQIDEtpvzMBuo
+║❒ *𝗝𝗢𝗜𝗡 𝗠𝗬 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟*
+https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L
 
  
 
 
-              *𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍-𝐁𝐎𝐓*`;
+              *𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
