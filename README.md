@@ -24,7 +24,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
-[![keithkeizzah GitHub stats](https://github-readme-stats.vercel.app/api?username=Elsa2090&show_icons=true&theme=radical)](https://github.com/Elsa2090)
+[![Bryant tech GitHub stats](https://github-readme-stats.vercel.app/api?username=Elsa2090&show_icons=true&theme=radical)](https://github.com/Elsa2090)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
