@@ -35,7 +35,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
       
     ╚═════ ▓▓ 𖤍 ▓▓ ═════╝*/
     /* menuMsg+=`
-   ╔════ ▓▓ 𖤍𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍-𝐁𝐎𝐓𖤍 ▓▓ ════╗
+   ╔════ ▓▓ 𖤍𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗𖤍 ▓▓ ════╗
   
    ||     Préfixe : ${s.prefixe}
    ||      Owner : ${s.OWNER_NAME}
@@ -47,7 +47,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
-╔════----*𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍-𝐁𝐎𝐓*----
+╔════----*𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗*----
 ║    Préfixe : ${s.PREFIXE}
 ║    Owner : ${s.OWNER_NAME}    
 ║    Mode : ${mode}
@@ -56,7 +56,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ║    Hour: ${temps}
 ║    Mém : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Platform : ${os.platform()}
-║    Déveloper : ༒𝐃𝚫𝚳𝚯𝚴𖤍༒
+║    Déveloper : ༒𝗠𝗔𝗗𝗔𝗥𝗔_𝗠𝗗𖤍༒
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
