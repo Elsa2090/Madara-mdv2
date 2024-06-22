@@ -8,7 +8,7 @@ zokou({nomCom:"vv",categorie:"General",reaction:"🤩"},async(dest,zk,commandeOp
 const {ms,msgRepondu,repondre}=commandeOptions;
 
 
-if(!msgRepondu){return repondre("*Mentionne a view once media* .");}
+if(!msgRepondu){return repondre("*Mention a view once picture or video 👨‍💻* .");}
 
 
 if(msgRepondu.viewOnceMessageV2)
