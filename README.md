@@ -13,7 +13,7 @@
 
     
    - **If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).**
-   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://GitHub.com/Elsa2090/Madara-mdv2).***
+   - ***Now [DEPLOY](https://dashboard.heroku.com/new?template=https://github.com/Elsa2090/Madara-mdv2).***
 
      <img src="https://telegra.ph/file/0f931eb7db056315197bd.jpg" width="650" height="500"/>
 ## 𝐅𝐎𝐋𝐋𝐎𝐖 𝐓𝐇𝐄 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑👇
