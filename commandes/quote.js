@@ -13,14 +13,14 @@ zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║    𝑴𝑬𝑮𝑨𝑻𝑹𝑶𝑵 𝑩𝑶𝑻            ║
+║     𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚            ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 *𝑲𝒊𝒏𝒈 𝑮*`);
+𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 *𝗕𝗥𝗬𝗔𝗡𝗧 𝗧𝗘𝗖𝗛*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -33,14 +33,14 @@ zokou({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   𝑴𝑬𝑮𝑨𝑻𝑹𝑶𝑵 𝑩𝑶𝑻              ║
+║         𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚      ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚  𝑴𝑬𝑮𝑨𝑻𝑹𝑶𝑵 𝑩𝑶𝑻`);
+𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚  `);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
