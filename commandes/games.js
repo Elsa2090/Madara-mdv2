@@ -209,6 +209,68 @@ Send the number off right answers`
 
         } catch (error) {
             console.log(error);
+            let handler = async (m, { conn }) => {
+  let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  let name = conn.getName(who)
+  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './XLICON.jpg')
+  conn.sendFile(m.chat, global.API('https://some-random-api.com', '/canvas/overlay/gay', {
+    avatar: pp, 
+  }), 'gay.png', `🏳️‍🌈  *Gay :* ${name}\n\nWho wants to rape this gay☠️? `, m)
+}
+
+handler.help = ['gay @user']
+handler.tags = ['fun']
+handler.command = ['gay'] 
+
+export default handler
+            import fetch from 'node-fetch'
+let handler  = async (m, { conn }) => {
+    let shizokeys = 'shizo'	
+  let res = await fetch(`https://shizoapi.onrender.com/api/texts/flirt?apikey=${shizokeys}`)
+  if (!res.ok) throw await res.text()
+	    let json = await res.json()
+
+  let guru = `${json.result}`
+  conn.sendMessage(m.chat, { text: guru, mentions: [m.sender] }, { quoted: m })
+}
+handler.help = ['flirt']
+handler.tags = ['fun']
+handler.command = /^(flirt)$/i
+
+export default handler
+
+
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())]
+	import fetch from 'node-fetch';
+
+let pickupLineHandler = async (m, { conn, text }) => {
+  try {
+    let res = await fetch(`https://api.popcat.xyz/pickuplines`);
+
+    if (!res.ok) {
+      throw new Error(`API request failed with status ${res.status}`);
+    }
+
+    let json = await res.json();
+
+    console.log('JSON response:', json);
+
+    let pickupLine = `*Here's a pickup line for you:*\n\n"${json.pickupline}"\n\nContributor: ${json.contributor}`;
+
+    m.reply(pickupLine);
+  } catch (error) {
+    console.error(error);
+    // Handle the error appropriately
+  }
+};
+
+pickupLineHandler.help = ['pickupline'];
+pickupLineHandler.tags = ['fun'];
+pickupLineHandler.command = /^(pickupline|pickup)$/i;
+
+export default pickupLineHandler;
+}
         }
     }
 );
