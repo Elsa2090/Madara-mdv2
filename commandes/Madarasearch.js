@@ -45,7 +45,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
   }
 };
 handler.help = ['aisearch']
-handler.tags = ['AI']
+handler.Categorie = ['AI']
 handler.command = ['aisearch', 'ai2']; 
 
 
