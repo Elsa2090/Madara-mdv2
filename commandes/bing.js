@@ -6,6 +6,7 @@ let handler = async (message, {
   usedPrefix: prefix,
   command: cmd,
   text: inputText
+  
 }) => {
   if (!inputText && !(message.quoted && message.quoted.text)) {
     throw "Please provide some text or quote a message to get a response.";
@@ -24,7 +25,7 @@ let handler = async (message, {
 };
 
 handler.help = ["bing"];
-handler.tags = ['AI'];
+handler.Categorie = ['AI'];
 handler.command = /^(bing)$/i;
 export default handler;
 
