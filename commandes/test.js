@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "repo", reaction: "😌", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = 'Hello This is  *MEGATRON-BOT* \n\n ' + "The Following is *MEGATRON-BOTRepo.*";
-    let d = ' https://github.com/Madmkisii/Megatron-Bot';
+    let z = '𓃮Hello This is𓃮  *✦𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚✦* \n\n ' + "The Following is *✦𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚𝕣𝕖𝕡𝕠*";
+    let d = 'https://github.com/Elsa2090/Madara-mdv2';
     let varmess = z + d;
-    var img = 'https://telegra.ph/file/bcf5cec3445652ab197bc.jpg';
+    var img = 'https://telegra.ph/file/39e18db893d4a5c097117.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
