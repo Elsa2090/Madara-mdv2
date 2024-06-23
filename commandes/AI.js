@@ -122,7 +122,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 };
 
 handler.command = /^madara$/i;
-handler.tags = ['study'];
+handler.Categorie = ['AI'];
 
 export default handler;
   });
