@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [Damon, Damon1,Damon2,Damon3].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{MEGATRON-BOT}...[][]");
+            console.log("\t [][]...{MADARA_MD-V2-BOT}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from the group : " + nomGroupe);
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: '༒𝐃𝚫𝚳𝚯𝚴𖤍༒',
+                pack: '༒Bryant༒',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -858,27 +858,28 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍 𝐁𝐎𝐓 is CONNECTED』*
+*『MADARA BOT is CONNECTED』*
 
      
-║❒Creator: *༒𝐃𝚫𝚳𝚯𝚴𖤍༒*
+║❒Creator: *༒𝗕𝗥𝗬𝗔𝗡𝗧𖤍༒*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
 ║❒Created on : *25.3.2024*
 ║❒Total Commands : ${evt.cm.length}︎
 
-     ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
-     ▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚▞▚
+     
+    ✦ 𝕋ℍ𝔸ℕ𝕂𝕊 𝕋𝕆 
+     𝔹ℝ𝕐𝔸ℕ𝕋 𝕋𝔼ℂℍ ✦
  
 
 
-║❒ *JOIN OUR WhatsApp Gʀᴏᴜᴘ*
-https://chat.whatsapp.com/HSChig1YPPQIDEtpvzMBuo
-
+║❒ *𝗷𝗼𝗶𝗻 𝗼𝘂𝗿 𝘄𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗴𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 𝗰𝗵𝗮𝗻𝗻𝗲𝗹*
+𝗴𝗿𝗼𝘂𝗽: https://chat.whatsapp.com/DOko0OMbzD3DPZmIADnT95
+𝗰𝗵𝗮𝗻𝗻𝗲𝗹: https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L
  
 
 
-              *𝐌𝐄𝐆𝐀𝐓𝐑𝐎𝐍-𝐁𝐎𝐓*`;
+              *𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕄𝔸𝔻𝔸ℝ𝔸_𝕄𝔻-𝕍𝟚*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
