@@ -17,7 +17,8 @@ smd({
       const { key } = await citel.reply( `(\\_/)\n( •.•)\n/>🤍`)
       for (let i = 0; i < teddy.length; i++) {
         await sleep(500);
-        await citel.reply(`(\\_/)\n( •.•)\n/>${teddy[i]}`, { edit: key })             
+        await citel.reply(`(\\_/)\n( •.•)\n/>${teddy[i]}`, { edit: key })  
+          zokou({ nomCom: "teddy", categorie: "fun", reaction: "❣️" },
       } 
     }
 
