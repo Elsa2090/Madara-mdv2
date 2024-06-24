@@ -1,5 +1,5 @@
-import fetch from 'node-fetch';
-import axios from 'axios';
+import fetch from 'zokou';
+import axios from 'zokou';
 
 export async function before(m, { conn }) {
   try {
@@ -63,6 +63,7 @@ export async function before(m, { conn }) {
       }
   } catch (error) {
     console.log(error);
+    zokou({ nomCom: "chatbot", categorie: "AI", reaction: "🧠" },
     
   }
 }
