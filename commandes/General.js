@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "owner", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "owner", categorie: "General", reaction: "🙇‍♂️" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,16 +51,16 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "💞" }, async (dest, 
   }
 });
 
-zokou({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "developer", categorie: "General", reaction: "🙇‍♂️" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Damon", numero: "254790593618" },
-      { nom: "᚛Damon᚜", numero: "254102350531" },
+      { nom: "Bryant_tech", numero: "233530729233" },
+      { nom: "᚛Xtech᚜", numero: "94784192378" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 *𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝑴𝒆𝒈𝒂𝒕𝒓𝒐𝒏-𝑩𝒐𝒕!* 𝒉𝒆𝒓𝒆 𝒊𝒔 𝒕𝒉𝒆 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝒏𝒖𝒎𝒃𝒆𝒓𝒔:\n\n";
+    let message = "👋 *𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝑴adara_md-v2!* 𝒉𝒆𝒓𝒆 𝒊𝒔 𝒕𝒉𝒆 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝒏𝒖𝒎𝒃𝒆𝒓𝒔:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -94,8 +94,8 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/254790593618`},{quoted :ms})
+  repondre("look on dm sir ")
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/233530729233`},{quoted :ms})
 
 })
 
