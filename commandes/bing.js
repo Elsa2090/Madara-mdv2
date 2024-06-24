@@ -24,10 +24,8 @@ let handler = async (message, {
   await connection.reply(message.chat, response, message);
 };
 
-handler.help = ["bing"];
-handler.Categorie = ['AI'];
-handler.command = /^(bing)$/i;
-export default handler;
+zokou({ nomCom: "bing", reaction: "📡", categorie: "IA" },
+export default zokou;
 
 async function Bing(queryText) {
   let response = await (await fetch("https://copilot.github1s.tk/v1/chat/completions", {
