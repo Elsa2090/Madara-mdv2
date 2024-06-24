@@ -14,7 +14,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
     } else if (text && m.quoted && m.quoted.text) {
       text = `${text} ${m.quoted.text}`;
       if (m.quoted.text.includes('.aisearch')) {
-        text = text.replace('.aisearch', ''); // 
+        text = text.replace('.gpt5', ''); // 
       }
     }
     await displayLoadingScreen(conn, m.chat)
@@ -44,9 +44,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
     m.reply(`An error occurred while processing your request. Please try again later.`);
   }
 };
-handler.help = ['aisearch']
-handler.Categorie = ['AI']
-handler.command = ['aisearch', 'ai2']; 
+ = zokou({ nomCom: "gpt5", reaction: "📡", categorie: "IA" },
 
 
-export default handler;
+export default zokou;
